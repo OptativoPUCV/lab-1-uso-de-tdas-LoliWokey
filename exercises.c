@@ -58,9 +58,16 @@ Crea una función que reciba una lista de enteros (int*) y
 retorne la suma de sus elementos.
 */
 int sumaLista(List *L) {
-   return 0;
-}
+   int suma = 0;
+    int *valor;  
+    valor = (int *)first(L);
 
+   while (valor != NULL) {
+      suma += *valor;
+      valor = (int *)next(L);  
+   }
+   return suma;
+}
 /*
 Ejercicio 3.
 Crea una función que reciba una lista de punteros a int (int*) y
