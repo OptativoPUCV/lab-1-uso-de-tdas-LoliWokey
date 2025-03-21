@@ -36,3 +36,14 @@ exercises.c:81:4: error: 'valor' undeclared (first use in this function)
 exercises.c:81:4: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 57043b9
+Fri, Mar 21, 2025 10:57:57 AM: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'eliminaElementos':
+exercises.c:83:17: error: comparison between pointer and integer [-Werror]
+       if (valor == elem){
+                 ^~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+190751f
