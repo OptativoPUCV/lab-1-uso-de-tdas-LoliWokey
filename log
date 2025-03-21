@@ -25,3 +25,14 @@ exercises.c:81:4: error: 'valor' undeclared (first use in this function)
 exercises.c:81:4: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 f2dc644
+Fri, Mar 21, 2025 10:55:01 AM: 
+ exercises.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:0:
+exercises.c: In function 'eliminaElementos':
+exercises.c:81:4: error: 'valor' undeclared (first use in this function)
+    valor = (int *)first(L);
+    ^~~~~
+exercises.c:81:4: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+57043b9
